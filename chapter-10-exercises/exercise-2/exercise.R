@@ -26,7 +26,7 @@ salaries$salaries_2018 <- salaries$salaries_2017 + salaries$adjustments
 # Add a column to the `salaries` data frame that has a value of `TRUE` if the 
 # person got a raise (their salary went up)
 salaries$got_raise <- salaries$adjustments > 0
-View(salaries)
+#View(salaries)
 
 ### Retrieve values from your data frame to answer the following questions
 ### Note that you should get the value as specific as possible (e.g., a single
