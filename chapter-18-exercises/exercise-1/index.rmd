@@ -1,0 +1,21 @@
+---
+title: "Movie Review"
+author: "Yinqi(David) Wang"
+date: "February 13, 2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+library("knitr")
+source("exercise.R")
+
+```
+
+## `r list_info$headline`
+
+```{r link, echo=FALSE}
+link_markdown <- paste("A link to the full review page:", list_info$link)
+```
+
+`r list_info$short_summary`  
+`r link_markdown`
